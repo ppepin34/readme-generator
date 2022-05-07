@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 const markdown = require("./utils/generateMarkdown");
 
 // TODO: Create a function to write README file
@@ -135,8 +136,10 @@ const promptUser = () => {
         },
       },
     ])
-    .then((answers) => console.log(answers));
 };
 
 // Function call to initialize app
-promptUser();
+promptUser()
+  .then(data => {
+    return generateMarkdown(data);
+  })
