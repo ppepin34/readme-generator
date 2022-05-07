@@ -34,6 +34,8 @@ function generateMarkdown(data) {
 
   ${data.usage}
 
+  ## License
+
   ## Contributing
   
   ${data.contribution}
