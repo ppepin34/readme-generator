@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README Generator
   
 
@@ -35,5 +36,7 @@
   
   - ppepin34@gmail.com
   - [github](github.com/ppepin34)
+=======
+>>>>>>> b8fbe9faa32b3413701d871c3e17c9bdcbaeb40b
 
   
