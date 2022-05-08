@@ -36,6 +36,7 @@ function renderLicenseSection(license) {
     return ''
   } else {
     return String.raw`## License
+    
     This project uses the ${license} license.`
   }
 }
